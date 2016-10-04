@@ -9,7 +9,7 @@ namespace _10_Collections
         public double PricePerShare { get; set; }
 
         public string Name { get; set; }
-        public long Id { get; internal set; }
+        public long Id { get; set; }
 
         public Stock()
         {
